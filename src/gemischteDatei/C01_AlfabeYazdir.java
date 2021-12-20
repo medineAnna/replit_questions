@@ -1,4 +1,4 @@
-package karisik;
+package gemischteDatei;
 
 public class C01_AlfabeYazdir {
 
