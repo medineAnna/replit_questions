@@ -12,20 +12,16 @@ public class C09_TersRakam {
 		 * Output :Girilen Numananin Tersi: 8321
 		 */
 
-		
-		
 		String sayi = "1238";
-		
-		String str ="";
-		
-		for (int i = sayi.length()-1; i >=0 ; i--) {
-			
-			str+=sayi.charAt(i);
+
+		String str = "";
+
+		for (int i = sayi.length() - 1; i >= 0; i--) {
+
+			str += sayi.charAt(i);
 		}
-		
-		System.out.println("Girilen Numananin Tersi: "+str);
-		
-		
+
+		System.out.println("Girilen Numananin Tersi: " + str);
 
 	}
 

@@ -13,21 +13,20 @@ public class C10_TekrarlananKarakter {
 		 * 
 		 * Output: a s
 		 */
-		
-		
+
 		String str1 = "Javaissoeasy";
-		String depo ="";
-		
+		String depo = "";
+
 		for (int i = 0; i < str1.length(); i++) {
-			
-			for (int j = i+1; j < str1.length();j++) {
-				
-				if (str1.charAt(i)==str1.charAt(j) && !depo.contains(str1.substring(i, i+1)) ) {
-					depo+=str1.charAt(i)+" ";
+
+			for (int j = i + 1; j < str1.length(); j++) {
+
+				if (str1.charAt(i) == str1.charAt(j) && !depo.contains(str1.substring(i, i + 1))) {
+					depo += str1.charAt(i) + " ";
 				}
 			}
 		}
-		
+
 		System.out.println(depo);
 
 	}

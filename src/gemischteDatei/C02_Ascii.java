@@ -17,9 +17,8 @@ public class C02_Ascii {
 		 * value of x = 120 Ascii value of y = 121 Ascii value of z = 122
 		 */
 
-		
 		for (char i = 'a'; i <= 'z'; i++) {
-		System.out.println("Ascii value of "+i+" = "+i*1);
+			System.out.println("Ascii value of " + i + " = " + i * 1);
 		}
 	}
 

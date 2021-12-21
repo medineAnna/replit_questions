@@ -9,15 +9,15 @@ public class C04_DogalSayi {
 		 * OutPut:
 		 * 
 		 * Sayilarin Toplami : 5050
-	
+		 * 
 		 */
-		int toplam=0;
-		
+		int toplam = 0;
+
 		for (int i = 1; i <= 100; i++) {
-			toplam+=i;
+			toplam += i;
 		}
-		
-		System.out.println("Sayilarin Toplami :"+toplam);
+
+		System.out.println("Sayilarin Toplami :" + toplam);
 	}
 
 }

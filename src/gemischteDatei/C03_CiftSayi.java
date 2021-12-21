@@ -8,13 +8,12 @@ public class C03_CiftSayi {
 		 * 
 		 * OUTPUT : 100 98 96 94 92 � � � � 2 0
 		 */
-		
-		for (int i = 100; i >=0; i-=2) {
-			
-			System.out.print(i+" ");
-			
+
+		for (int i = 100; i >= 0; i -= 2) {
+
+			System.out.print(i + " ");
+
 		}
-		
 
 	}
 

@@ -19,33 +19,26 @@ public class C05_EbobEkok {
 		 * 
 		 * 30 ve 40 icin LCM = 120
 		 */
-		
+
 		Scanner scan = new Scanner(System.in);
 		System.out.println("2 tam sayi giriniz:");
-		
+
 		int sayi1 = scan.nextInt();
 		int sayi2 = scan.nextInt();
-		int Ebob =0;
-		
-		
+		int Ebob = 0;
+
 		for (int i = sayi1; i >= 1; i--) {
-			
-			if (sayi1%i==0 && sayi2%i==0) {
-				System.out.println(sayi1+" ve "+sayi2+" icin GCD = "+i);
-				Ebob=i;
+
+			if (sayi1 % i == 0 && sayi2 % i == 0) {
+				System.out.println(sayi1 + " ve " + sayi2 + " icin GCD = " + i);
+				Ebob = i;
 				break;
 			}
 		}
-		
-		
-		System.out.println(sayi1+" ve "+sayi2+" icin LCM = "+sayi1*sayi2/Ebob);
-		
-		
+
+		System.out.println(sayi1 + " ve " + sayi2 + " icin LCM = " + sayi1 * sayi2 / Ebob);
+
 		scan.close();
-		
-		
-		
-		
 
 	}
 

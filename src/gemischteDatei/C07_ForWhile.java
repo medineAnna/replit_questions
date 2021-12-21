@@ -41,7 +41,6 @@ public class C07_ForWhile {
 			System.out.println("Mukemmel sayi degildir.");
 		}
 
-
 	}
 
 }
